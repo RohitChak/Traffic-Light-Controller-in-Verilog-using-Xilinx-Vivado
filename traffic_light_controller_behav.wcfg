@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="traffic_light_controller_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="traffic_light_controller" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0.000000 us"></ZoomStartTime>
+      <ZoomEndTime time="11.100001 us"></ZoomEndTime>
+      <Cursor1Time time="11.100000 us"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="340"></NameColumnWidth>
+      <ValueColumnWidth column_width="155"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="16" />
+   <wvobject fp_name="/traffic_light_controller/northLight" type="array">
+      <obj_property name="ElementShortName">northLight[1:0]</obj_property>
+      <obj_property name="ObjectShortName">northLight[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/traffic_light_controller/eastLight" type="array">
+      <obj_property name="ElementShortName">eastLight[1:0]</obj_property>
+      <obj_property name="ObjectShortName">eastLight[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/traffic_light_controller/westLight" type="array">
+      <obj_property name="ElementShortName">westLight[1:0]</obj_property>
+      <obj_property name="ObjectShortName">westLight[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/traffic_light_controller/southLight" type="array">
+      <obj_property name="ElementShortName">southLight[1:0]</obj_property>
+      <obj_property name="ObjectShortName">southLight[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/traffic_light_controller/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/traffic_light_controller/reset" type="logic">
+      <obj_property name="ElementShortName">reset</obj_property>
+      <obj_property name="ObjectShortName">reset</obj_property>
+   </wvobject>
+   <wvobject fp_name="/traffic_light_controller/state" type="array">
+      <obj_property name="ElementShortName">state[2:0]</obj_property>
+      <obj_property name="ObjectShortName">state[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/traffic_light_controller/count" type="array">
+      <obj_property name="ElementShortName">count[3:0]</obj_property>
+      <obj_property name="ObjectShortName">count[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/traffic_light_controller/north" type="array">
+      <obj_property name="ElementShortName">north[2:0]</obj_property>
+      <obj_property name="ObjectShortName">north[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/traffic_light_controller/northYellow" type="array">
+      <obj_property name="ElementShortName">northYellow[2:0]</obj_property>
+      <obj_property name="ObjectShortName">northYellow[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/traffic_light_controller/west" type="array">
+      <obj_property name="ElementShortName">west[2:0]</obj_property>
+      <obj_property name="ObjectShortName">west[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/traffic_light_controller/westYellow" type="array">
+      <obj_property name="ElementShortName">westYellow[2:0]</obj_property>
+      <obj_property name="ObjectShortName">westYellow[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/traffic_light_controller/east" type="array">
+      <obj_property name="ElementShortName">east[2:0]</obj_property>
+      <obj_property name="ObjectShortName">east[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/traffic_light_controller/eastYellow" type="array">
+      <obj_property name="ElementShortName">eastYellow[2:0]</obj_property>
+      <obj_property name="ObjectShortName">eastYellow[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/traffic_light_controller/south" type="array">
+      <obj_property name="ElementShortName">south[2:0]</obj_property>
+      <obj_property name="ObjectShortName">south[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/traffic_light_controller/southYellow" type="array">
+      <obj_property name="ElementShortName">southYellow[2:0]</obj_property>
+      <obj_property name="ObjectShortName">southYellow[2:0]</obj_property>
+   </wvobject>
+</wave_config>
